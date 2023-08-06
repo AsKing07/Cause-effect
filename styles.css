@@ -1,0 +1,40 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.title 
+{
+    text-align: center;
+}
+
+.summary,
+.details {
+  width: 45%;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.innerDetails
+{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+#people-list li:hover 
+{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.clicked
+{
+    color: deeppink;
+    font-weight: bold;
+}
+  
+  
